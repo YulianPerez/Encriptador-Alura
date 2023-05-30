@@ -1,3 +1,24 @@
-body{
-    background: #757fb2;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+}
+
+h1{
+    background: rgb(81, 81, 147);
+    font-size: 5rem;
+    text-align: right;
+    padding: 2rem 10rem;
+    border-radius: 4rem;
+    margin:1rem;
+    font-style: italic;
+    color: aliceblue;
 }
