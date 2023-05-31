@@ -6,6 +6,7 @@
 
 html{
     font-size: 62.5%;
+    background-color: beige;
 }
 
 header{
@@ -21,4 +22,122 @@ h1{
     margin:1rem;
     font-style: italic;
     color: aliceblue;
+}
+
+main{
+    
+    width: 100%;
+    
+}
+
+section{
+    display: flex;
+    background: rgb(81, 81, 147);
+    margin: 0 1rem;
+    border-radius: 4rem;
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    align-items: center;
+    height: 40%;
+    box-sizing: border-box;
+}
+
+#left-content{
+    /* background-color: aliceblue; */
+    padding: 1rem;
+    border: 0.1rem black solid;
+    border-radius: 4rem;
+    
+}
+
+textarea{
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border: 0.2rem black solid ;
+    resize: none;
+}
+
+textarea::selection{
+    border: 0.2rem rgb(37, 37, 94) solid;
+}
+
+#first-img{
+    height: 250px;
+    margin-right: 0.5rem;
+}
+
+#logo{
+    height: 50px;
+}
+
+#right-content{
+    display: flex;
+    background: aliceblue;
+    width: 100%;
+    height: 405px;
+    padding: 1rem 0;
+    border: 0.3rem black solid;
+    border-radius: 4rem;
+    margin-left: 1rem ;
+    text-align: center;
+    flex-direction: column;
+}
+
+#secund-img{
+    height: 270px;
+}
+
+.button{
+    /* background-color: blue; */
+    text-align: center;
+    margin: 0 5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    margin: 0 3rem;
+    padding: 0.5rem 2rem;
+}
+
+input:hover{
+    background-color: rgb(24, 24, 83);
+    color: aliceblue;
+    transition: 0.5s;
+}
+input:active{
+    background-color: rgb(77, 77, 147);
+    transition: 0.2s;
+}
+
+footer{
+    background-color: rgb(81, 81, 147);
+    display: flex;
+    margin: 0 1rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 1rem 400px;
+}
+
+a img{
+    width: 20px;
+
+}
+
+a img:hover{
+    background-color:  aliceblue;
+    border-radius: 100%;
+    transition: 2s;
+}
+
+a img:active{
+    background-color: blueviolet;
+    transition: 2s;
 }
