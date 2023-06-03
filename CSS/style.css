@@ -55,12 +55,25 @@ textarea{
     background-color: aliceblue;
     display: flex;
     justify-content: center;
-    border: 0.2rem black solid ;
+    /* border: 0.2rem black solid ; */
+    border-radius: 2%;
     resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 2%;
+
+    
 }
 
-textarea::selection{
+textarea:active{
     border: 0.2rem rgb(37, 37, 94) solid;
+}
+
+#texto:focus, #texto:active{
+    border: none;
+    outline: none;
 }
 
 #first-img{
