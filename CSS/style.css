@@ -328,4 +328,147 @@ a img:active{
         width: 50px;
     }
 
+    @media(max-width: 57.5em){
+
+        header{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100% ;
+           padding: 0;
+        }
+    
+        h1{
+            text-align: center;
+            margin: 0.2rem;
+            width: 95%;
+            padding: 0%;
+        }
+    
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #left-content{
+            width: 100%;
+            flex-direction: row;
+            height: auto;
+        }
+    
+        .imagenes{
+            display: flex;
+            margin: 0.1rem;
+            padding: 0.1rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+    
+        #logo-alura{
+            width: 30vw;
+        }
+    
+        #first-img{
+            width: 50vw;
+            height: 16vh;
+        }
+    
+        .texto{
+            width: 80%;
+            height: 60%;
+            left: 10%;
+            top: 5%;
+        }
+    
+        textarea{
+            width: 95%;
+            font-size: 25px;
+        }
+    
+        #mencion{
+            width: 80%;
+            left: 10%;
+            top: 67%;
+            
+        }
+    
+        h4{
+            font-size: 20px;
+        }
+    
+        .button{
+            width: 80%;
+            left: 10%;
+            top: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding-top: 0.7rem;
+        }
+    
+        .btn-encriptar, .btn-desencriptar{
+            width: 48%;
+            border-radius: 16px;
+            font-size: 15px;
+        }
+    
+        .btn-encriptar:hover, .btn-desencriptar:hover{
+            margin: 0.3%;
+            width: 47.5%;
+            padding: 1.8%;
+        }
+    
+        #right-content{
+            width: 80%;
+            height: 15%;
+            left: 10%;
+            top: 80%;
+        }
+    
+        .mensaje-encriptado{
+            width: 100%;
+            top: 5%;
+        }
+    
+        #right-content img{
+            top: 0;
+            display: none;
+            visibility: hidden;
+        }
+    
+        footer{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 95%;
+            padding: 1rem;
+        }
+    
+        p{
+            width: 70vw;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        article{
+            display: flex;
+            flex-direction: row;
+            width: 70vw;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    
+        a img{
+    
+            width: 50px;
+        }
+    
+    }
+    
+
 }
